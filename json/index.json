@@ -1,0 +1,431 @@
+{
+  "spider": "https://raw.githubusercontent.com/jfeng018/TvNext/master/jar/custom_spider.jar;md5;b7f9952cdc9acec0f32fd7d5fb124933",
+  "lives": [
+    {
+      "name": "直播ipv6",
+      "type": "0",
+      "pass": true,
+      "url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "电视直播",
+      "type": "0",
+      "pass": true,
+      "url": "https://ghfast.top/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "sites": [
+    {
+      "key": "Introduce",
+      "name": "项目提示",
+      "type": 3,
+      "api": "csp_Introduce"
+    },
+    {
+      "key": "Douban",
+      "name": "豆瓣推荐",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Jianpian",
+      "name": "荐片视频",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Wogg",
+      "name": "玩偶哥哥|网盘",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://www.wogg.link/"
+    },
+    {
+      "key": "Mogg",
+      "name": "欧歌影视|网盘",
+      "type": 3,
+      "api": "csp_Mogg",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://woog.nxog.eu.org/"
+    },
+    {
+      "key": "ZhiZhen",
+      "name": "至臻视觉|网盘",
+      "type": 3,
+      "api": "csp_ZhiZhen",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://mihdr.top/"
+    },
+    {
+      "key": "XiaoZhiTiao",
+      "name": "小纸条|搜盘",
+      "type": 3,
+      "api": "csp_XiaoZhiTiao",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "DuoDuo",
+      "name": "多多影音|网盘",
+      "type": 3,
+      "api": "csp_DuoDuo",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"https://tv.yydsys.top/\"]}"
+    },
+    {
+      "key": "NaBi",
+      "name": "蜡笔盘盘|网盘",
+      "type": 3,
+      "api": "csp_NaBi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"https://duopan.fun/\"]}"
+    },
+    {
+      "key": "ShanDian",
+      "name": "闪电优汐|网盘",
+      "type": 3,
+      "api": "csp_ShanDian",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"http://1.95.79.193/\"]}"
+    },
+    {
+      "key": "TeXiaFan",
+      "name": "特下饭|网盘",
+      "type": 3,
+      "api": "csp_TeXiaFan",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"http://www.txfyyda.top/\"]}"
+    },
+    {
+      "key": "XiaoMi",
+      "name": "小米UC|网盘",
+      "type": 3,
+      "api": "csp_XiaoMi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"http://mucpan.cc/\",\"http://milvdou.fun/\"]}"
+    },
+    {
+      "key": "SeedHub",
+      "name": "SeedHub|搜索",
+      "type": 3,
+      "api": "csp_SeedHub",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "PanTa",
+      "name": "盘他|搜索",
+      "type": 3,
+      "api": "csp_PanTa",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "LeiJing",
+      "name": "雷鲸|搜索",
+      "type": 3,
+      "api": "csp_LeiJing",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "BiXin",
+      "name": "彼心|搜索",
+      "type": 3,
+      "api": "csp_BiXin",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "Qupans",
+      "name": "Qupans|搜索",
+      "type": 3,
+      "api": "csp_Qupans",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "KuaKeBa",
+      "name": "夸克吧|网盘",
+      "type": 3,
+      "api": "csp_KuaKeBa",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "DianYingYunJi",
+      "name": "电影云集|网盘",
+      "type": 3,
+      "api": "csp_DianYingYunJi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "KuaKeS",
+      "name": "夸克网盘社|网盘",
+      "type": 3,
+      "api": "csp_KuaKeS",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "XuanFeng",
+      "name": "旋风影视|网盘",
+      "type": 3,
+      "api": "csp_XuanFeng",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "NCat",
+      "name": "网飞猫影视",
+      "type": 3,
+      "api": "csp_NCat",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ChangZhang",
+      "name": "厂长影视",
+      "type": 3,
+      "api": "csp_ChangZhang",
+      "searchable": "1",
+      "filterable": "0",
+      "changeable": 0,
+      "ext": "https://www.czzy.site/"
+    },
+    {
+      "key": "Zxzj",
+      "name": "在线之家",
+      "type": 3,
+      "api": "csp_Zxzj",
+      "searchable": "1",
+      "filterable": "0",
+      "changeable": 0,
+      "ext": {}
+    },
+    {
+      "key": "TvDy",
+      "name": "电影天堂",
+      "type": 3,
+      "api": "csp_TvDy",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "W55Movie",
+      "name": "555电影",
+      "type": 3,
+      "api": "csp_W55Movie",
+      "searchable": 0,
+      "filterable": 1,
+      "ext": "https://w55xy.com/"
+    },
+    {
+      "key": "DaGongRen",
+      "name": "打工人电影",
+      "type": 3,
+      "api": "csp_DaGongRen",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "HkTv",
+      "name": "TVB云播",
+      "type": 3,
+      "api": "csp_HkTv",
+      "searchable": 0,
+      "filterable": 1,
+      "ext": "http://www.hktvyb.vip/"
+    },
+    {
+      "key": "NGkt",
+      "name": "瓜瓜影视",
+      "type": 3,
+      "api": "csp_NG",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {}
+    },
+    {
+      "key": "JustLive",
+      "name": "JustLive直播",
+      "type": 3,
+      "api": "csp_JustLive",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Xb6v",
+      "name": "新版6V视频",
+      "type": 3,
+      "api": "csp_Xb6v",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ikanbot",
+      "name": "爱看机器人",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
+    },
+    {
+      "key": "Libvio",
+      "name": "立播影视",
+      "type": 3,
+      "api": "csp_Libvio",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": "{\"site\": \"https://www.libvio.app\"}"
+    },
+    {
+      "key": "Ddrk",
+      "name": "低端影视",
+      "type": 3,
+      "api": "csp_Ddrk",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": "{\"site\":\"https://ddys.info/\"}"
+    },
+    {
+      "key": "Ysj",
+      "name": "异世界动漫",
+      "type": 3,
+      "api": "csp_Ysj",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "QxiTv",
+      "name": "七喜影视",
+      "type": 3,
+      "api": "csp_QxiTv",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {}
+    },
+    {
+      "key": "glod",
+      "name": "金牌影视",
+      "type": 3,
+      "api": "csp_Glod",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {}
+    },
+    {
+      "key": "YunPanBa",
+      "name": "云盘吧|搜索",
+      "type": 3,
+      "api": "csp_YunPanBa",
+      "searchable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "QiLeSo",
+      "name": "奇乐搜|搜索",
+      "type": 3,
+      "api": "csp_QiLeSo",
+      "searchable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "PanSearch",
+      "name": "盘搜|搜索",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "TianYiSo",
+      "name": "天翼|搜索",
+      "type": 3,
+      "api": "csp_TianYiSo",
+      "searchable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "newvision",
+      "name": "(js)新视觉影院",
+      "api": "https://raw.githubusercontent.com/jfeng018/CatVodSpiderNext/master/json/js/newvision.js",
+      "type": 3
+    },
+    {
+      "key": "bilibili",
+      "name": "(js)哔哩哔哩",
+      "api": "https://raw.githubusercontent.com/jfeng018/CatVodSpiderNext/master/json/js/bilibili.js",
+      "type": 3
+    },
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "changeable": 0,
+      "timeout": 60
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Json并发",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "bilibili",
+    "renrenmi"
+  ],
+  "wallpaper": "https://bing.ee123.net/img/4k"
+}
