@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.githubusercontent.com/jfeng018/TvNext/master/jar/custom_spider.jar;md5;7a5d2373a35d5f09b8239a39ebdfa6c3",
+  "spider": "https://raw.githubusercontent.com/jfeng018/TvNext/master/jar/custom_spider.jar;md5;2fa6cbe87873918c6528fa2fee0087d7",
   "lives": [
     {
       "name": "直播ipv6",
