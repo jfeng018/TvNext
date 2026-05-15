@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.githubusercontent.com/jfeng018/TvNext/master/jar/custom_spider.jar;md5;6298bbae9549b736f9c7c4e912a3e3b1",
+  "spider": "https://raw.githubusercontent.com/jfeng018/TvNext/master/jar/custom_spider.jar;md5;c51713f639ffb2a91a4845d7f60a2075",
   "lives": [
     {
       "name": "直播ipv6",
@@ -23,7 +23,8 @@
       "key": "Introduce",
       "name": "项目提示",
       "type": 3,
-      "api": "csp_Introduce"
+      "api": "csp_Introduce",
+      "style": { "type": "list" }
     },
     {
       "key": "Douban",
@@ -37,25 +38,21 @@
       "key": "Jianpian",
       "name": "荐片视频",
       "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "filterable": 1
+      "api": "csp_Jianpian"
     },
     {
       "key": "Wogg",
       "name": "玩偶哥哥|网盘",
       "type": 3,
       "api": "csp_Wogg",
-      "searchable": 1,
       "changeable": 1,
       "ext": "https://www.wogg.link/"
     },
     {
       "key": "Mogg",
-      "name": "欧歌影视|网盘",
+      "name": "木偶哥哥|网盘",
       "type": 3,
       "api": "csp_Mogg",
-      "searchable": 1,
       "changeable": 1,
       "ext": "https://woog.nxog.eu.org/"
     },
@@ -64,7 +61,6 @@
       "name": "至臻视觉|网盘",
       "type": 3,
       "api": "csp_ZhiZhen",
-      "searchable": 1,
       "changeable": 1,
       "ext": "https://mihdr.top/"
     },
@@ -72,16 +68,13 @@
       "key": "XiaoZhiTiao",
       "name": "小纸条|搜盘",
       "type": 3,
-      "api": "csp_XiaoZhiTiao",
-      "searchable": 1,
-      "changeable": 1
+      "api": "csp_XiaoZhiTiao"
     },
     {
       "key": "DuoDuo",
       "name": "多多影音|网盘",
       "type": 3,
       "api": "csp_DuoDuo",
-      "searchable": 1,
       "changeable": 1,
       "ext": "{\"site\": [\"https://tv.yydsys.top/\"]}"
     },
@@ -90,7 +83,6 @@
       "name": "蜡笔盘盘|网盘",
       "type": 3,
       "api": "csp_NaBi",
-      "searchable": 1,
       "changeable": 1,
       "ext": "{\"site\": [\"https://duopan.fun/\"]}"
     },
@@ -99,7 +91,6 @@
       "name": "闪电优汐|网盘",
       "type": 3,
       "api": "csp_ShanDian",
-      "searchable": 1,
       "changeable": 1,
       "ext": "{\"site\": [\"http://1.95.79.193/\"]}"
     },
@@ -108,7 +99,6 @@
       "name": "特下饭|网盘",
       "type": 3,
       "api": "csp_TeXiaFan",
-      "searchable": 1,
       "changeable": 1,
       "ext": "{\"site\": [\"http://www.txfyyda.top/\"]}"
     },
@@ -117,7 +107,6 @@
       "name": "小米UC|网盘",
       "type": 3,
       "api": "csp_XiaoMi",
-      "searchable": 1,
       "changeable": 1,
       "ext": "{\"site\": [\"http://mucpan.cc/\",\"http://milvdou.fun/\"]}"
     },
@@ -125,89 +114,61 @@
       "key": "SeedHub",
       "name": "SeedHub|搜索",
       "type": 3,
-      "api": "csp_SeedHub",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
+      "api": "csp_SeedHub"
     },
     {
       "key": "PanTa",
       "name": "盘他|搜索",
       "type": 3,
-      "api": "csp_PanTa",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
+      "api": "csp_PanTa"
     },
     {
       "key": "LeiJing",
       "name": "雷鲸|搜索",
       "type": 3,
-      "api": "csp_LeiJing",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
+      "api": "csp_LeiJing"
     },
     {
       "key": "BiXin",
       "name": "彼心|搜索",
       "type": 3,
-      "api": "csp_BiXin",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
+      "api": "csp_BiXin"
     },
     {
       "key": "Qupans",
       "name": "Qupans|搜索",
       "type": 3,
-      "api": "csp_Qupans",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
+      "api": "csp_Qupans"
     },
     {
       "key": "KuaKeBa",
       "name": "夸克吧|网盘",
       "type": 3,
-      "api": "csp_KuaKeBa",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
+      "api": "csp_KuaKeBa"
     },
     {
       "key": "DianYingYunJi",
       "name": "电影云集|网盘",
       "type": 3,
-      "api": "csp_DianYingYunJi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
+      "api": "csp_DianYingYunJi"
     },
     {
       "key": "KuaKeS",
       "name": "夸克网盘社|网盘",
       "type": 3,
-      "api": "csp_KuaKeS",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
+      "api": "csp_KuaKeS"
     },
     {
       "key": "XuanFeng",
       "name": "旋风影视|网盘",
       "type": 3,
-      "api": "csp_XuanFeng",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
+      "api": "csp_XuanFeng"
     },
     {
       "key": "NCat",
       "name": "网飞猫影视",
       "type": 3,
       "api": "csp_NCat",
-      "searchable": 1,
       "filterable": 1
     },
     {
@@ -215,27 +176,19 @@
       "name": "厂长影视",
       "type": 3,
       "api": "csp_ChangZhang",
-      "searchable": "1",
-      "filterable": "0",
-      "changeable": 0,
       "ext": "https://www.czzy.site/"
     },
     {
       "key": "Zxzj",
       "name": "在线之家",
       "type": 3,
-      "api": "csp_Zxzj",
-      "searchable": "1",
-      "filterable": "0",
-      "changeable": 0,
-      "ext": {}
+      "api": "csp_Zxzj"
     },
     {
       "key": "TvDy",
       "name": "电影天堂",
       "type": 3,
       "api": "csp_TvDy",
-      "searchable": 1,
       "filterable": 1
     },
     {
@@ -243,7 +196,6 @@
       "name": "555电影",
       "type": 3,
       "api": "csp_W55Movie",
-      "searchable": 0,
       "filterable": 1,
       "ext": "https://w55xy.com/"
     },
@@ -252,7 +204,6 @@
       "name": "打工人电影",
       "type": 3,
       "api": "csp_DaGongRen",
-      "searchable": 1,
       "filterable": 1
     },
     {
@@ -260,25 +211,19 @@
       "name": "TVB云播",
       "type": 3,
       "api": "csp_HkTv",
-      "searchable": 0,
-      "filterable": 1,
       "ext": "http://www.hktvyb.vip/"
     },
     {
       "key": "NGkt",
       "name": "瓜瓜影视",
       "type": 3,
-      "api": "csp_NG",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": {}
+      "api": "csp_NG"
     },
     {
       "key": "JustLive",
       "name": "JustLive直播",
       "type": 3,
       "api": "csp_JustLive",
-      "searchable": 1,
       "filterable": 1
     },
     {
@@ -286,7 +231,6 @@
       "name": "新版6V视频",
       "type": 3,
       "api": "csp_Xb6v",
-      "searchable": 1,
       "filterable": 1
     },
     {
@@ -294,8 +238,6 @@
       "name": "爱看机器人",
       "type": 3,
       "api": "csp_Ikanbot",
-      "searchable": 1,
-      "filterable": 0,
       "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
     },
     {
@@ -303,8 +245,6 @@
       "name": "立播影视",
       "type": 3,
       "api": "csp_Libvio",
-      "searchable": 1,
-      "filterable": 0,
       "ext": "{\"site\": \"https://www.libvio.app\"}"
     },
     {
@@ -312,8 +252,6 @@
       "name": "低端影视",
       "type": 3,
       "api": "csp_Ddrk",
-      "searchable": 1,
-      "filterable": 0,
       "ext": "{\"site\":\"https://ddys.info/\"}"
     },
     {
@@ -321,33 +259,25 @@
       "name": "异世界动漫",
       "type": 3,
       "api": "csp_Ysj",
-      "searchable": 1,
       "filterable": 1
     },
     {
       "key": "QxiTv",
       "name": "七喜影视",
       "type": 3,
-      "api": "csp_QxiTv",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {}
+      "api": "csp_QxiTv"
     },
     {
       "key": "glod",
       "name": "金牌影视",
       "type": 3,
-      "api": "csp_Glod",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {}
+      "api": "csp_Glod"
     },
     {
       "key": "YunPanBa",
       "name": "云盘吧|搜索",
       "type": 3,
       "api": "csp_YunPanBa",
-      "searchable": 1,
       "timeout": 30
     },
     {
@@ -355,7 +285,6 @@
       "name": "奇乐搜|搜索",
       "type": 3,
       "api": "csp_QiLeSo",
-      "searchable": 1,
       "timeout": 30
     },
     {
@@ -363,7 +292,6 @@
       "name": "盘搜|搜索",
       "type": 3,
       "api": "csp_PanSearch",
-      "searchable": 1,
       "timeout": 30
     },
     {
@@ -371,7 +299,6 @@
       "name": "天翼|搜索",
       "type": 3,
       "api": "csp_TianYiSo",
-      "searchable": 1,
       "timeout": 30
     },
     {
@@ -391,8 +318,6 @@
       "name": "推送",
       "type": 3,
       "api": "csp_Push",
-      "searchable": 0,
-      "changeable": 0,
       "timeout": 60
     }
   ],
